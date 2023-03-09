@@ -7,16 +7,13 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
-	fmt.Println("7 + 3 =", (7+3))
-	fmt.Println("7 - 3 =", (7-3))
-	fmt.Println("7 * 3 =", (7*3))
-	fmt.Println("7 / 3 =", (7/3))
-	fmt.Println("8 + 2^2", (8+math.Pow(2, 2)))
+	fmt.Println("The dimentions of the rectangle are 5cm and 3cm")
+	fmt.Println("Area of rectangle: ", (5 * 3), "cm²")
+	fmt.Println("Perimeter of rectangle: ", (2 * (5 + 3)), "cm")
 
-	//end of program
+	// end of program
 	fmt.Println("\nDone")
 }
