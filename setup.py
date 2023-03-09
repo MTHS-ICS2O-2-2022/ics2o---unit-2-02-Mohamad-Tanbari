@@ -1,8 +1,14 @@
+# Copyright(c) 2023 Mohamad All rights reserved
+#
+# Created by: Mohamad
+# Created on: Sep 2023
+# This program automatically sets up a new wesbite
+
 import os
 import sys
 
 # Print welcome message
-print("0;33mWelcome to the website setup program! - Mohamad0;33m")
+print("\nWelcome to the website setup program! - Mohamad")
 
 # Ask user if they want to create a new website
 create = input("\033[92mDo you want to create a new website? (y/n) \033[0m")

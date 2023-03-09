@@ -9,10 +9,16 @@
 
 .donut {
   float: right;
+  width: 350px;
 }
 
 .answer {
   font-size: 40px;
   color: green;
   padding: 20px;
+}
+
+.area-and-perimeter {
+  float: right;
+  width: 450px;
 }
